@@ -226,4 +226,4 @@ exec_always --no-startup-id polybar
 
 #exec --no-startup-id alacritty -e bash -c "neofetch && pfetch"
 #exec --no-startup-id alacritty -e (neofetch && echo "Welcome to Arch Linux!" && bash)
-exec alacritty -e bash -c "neofetch && bash && echo closing now... && sleep 1"
+exec --no-startup-id alacritty -e bash -c "pfetch && echo 'Welcome to Arch Linux! #DCW' && echo 'New today:' && echo 'I have not implemented an motd yet.' && bash && echo closing now... && sleep 1"

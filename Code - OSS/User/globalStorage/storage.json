@@ -23,7 +23,7 @@
             "backupPath": "/home/zaruhev/.config/Code - OSS/Backups/1714683062676",
             "uiState": {
                 "mode": 1,
-                "x": 5,
+                "x": 645,
                 "y": 100,
                 "width": 630,
                 "height": 695
@@ -224,20 +224,12 @@
                                     "label": "&&Settings"
                                 },
                                 {
-                                    "id": "workbench.view.extensions",
-                                    "label": "&&Extensions"
-                                },
-                                {
                                     "id": "workbench.action.openGlobalKeybindings",
                                     "label": "Keyboard Shortcuts"
                                 },
                                 {
                                     "id": "workbench.action.openSnippets",
                                     "label": "Configure User Snippets"
-                                },
-                                {
-                                    "id": "workbench.action.tasks.openUserTasks",
-                                    "label": "User Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -423,10 +415,6 @@
                     },
                     {
                         "id": "vscode.menubar.separator"
-                    },
-                    {
-                        "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Switch to Ctrl+Click for Multi-Cursor"
                     },
                     {
                         "id": "editor.action.toggleColumnSelection",
@@ -792,7 +780,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1216,10 +1205,6 @@
                         "label": "&&Search Feature Requests"
                     },
                     {
-                        "id": "workbench.action.openIssueReporter",
-                        "label": "Report &&Issue"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -1288,10 +1273,6 @@
             "workbench.action.openSettings": {
                 "label": "Ctrl+,",
                 "userSettingsLabel": "ctrl+,"
-            },
-            "workbench.view.extensions": {
-                "label": "Ctrl+Shift+X",
-                "userSettingsLabel": "ctrl+shift+x"
             },
             "workbench.action.openGlobalKeybindings": {
                 "label": "Ctrl+K Ctrl+S",
@@ -1478,6 +1459,10 @@
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
                 "userSettingsLabel": "ctrl+shift+d"
+            },
+            "workbench.view.extensions": {
+                "label": "Ctrl+Shift+X",
+                "userSettingsLabel": "ctrl+shift+x"
             },
             "workbench.actions.view.problems": {
                 "label": "Ctrl+Shift+M",
