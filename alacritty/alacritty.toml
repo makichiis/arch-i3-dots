@@ -1,0 +1,8 @@
+[font.normal]
+family = "JetBrainsMonoNerdFont"
+
+[window]
+opacity = 1.0
+
+[colors.primary]
+background = '#222432'

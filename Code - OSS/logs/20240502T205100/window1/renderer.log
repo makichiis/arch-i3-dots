@@ -1,0 +1,13 @@
+2024-05-02 20:51:03.845 [info] Started local extension host with pid 4852.
+2024-05-02 20:51:03.943 [info] Started initializing default profile extensions in extensions installation folder. file:///home/zaruhev/.vscode-oss/extensions
+2024-05-02 20:51:04.895 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/zaruhev/.vscode-oss/extensions
+2024-05-02 20:51:07.146 [info] [perf] Render performance baseline is 32ms
+2024-05-02 20:51:11.769 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async Z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:24704)
+    at async _.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25002)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2909:13350)
+    at async Z.Hc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:23086)
+    at async Z.rc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:13012
