@@ -53,7 +53,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -194,7 +194,7 @@ bindsym $mod+r mode "resize"
 #}
 
 # Stuff I added
-exec --no-startup-id feh --bg-scale ~/images/other_lain.png
+exec --no-startup-id feh --bg-scale --randomize ~/.config/wallpapers/
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 #exec --no-startup-id /usr/python-venv/bin/python ~/xborder/xborders --border-width 1 --border-red 244 --border-green 191 --border-blue 117 --border-mode center --negative-y-offset 20
 exec --no-startup-id /usr/python-venv/bin/python ~/xborder/xborders --border-width 1 --border-red 50 --border-green 50 --border-blue 50 --border-mode center --negative-y-offset 20
@@ -203,8 +203,13 @@ font pango:lemon 10
 for_window [class=".*"] title_format "<span font='JetBrainsMonoNerdFont'> > %title</span>"
 
 #client.focused #F4BF75 #F4BF75 #FFFFFF #F4BF75
-client.unfocused #222222 #222222 #6F6F6F #222222
-client.focused #353535 #353535 #7B7B7B #353535 
+#client.unfocused #222222 #222222 #6F6F6F #222222
+#client.focused #353535 #353535 #7B7B7B #353535 
+
+client.unfocused #181A23 #181A23 #6F6F6F #000000
+client.focused   #2D3042 #2D3042 #7B7B7B #000000
+
+#client2
 
 #for_window [class="^.*"] border pixel 0
 #for_window [floating] border pixel 0
@@ -226,4 +231,4 @@ exec_always --no-startup-id polybar
 
 #exec --no-startup-id alacritty -e bash -c "neofetch && pfetch"
 #exec --no-startup-id alacritty -e (neofetch && echo "Welcome to Arch Linux!" && bash)
-exec --no-startup-id alacritty -e bash -c "pfetch && echo 'Welcome to Arch Linux! #DCW' && echo 'New today:' && echo 'I have not implemented an motd yet.' && bash && echo closing now... && sleep 1"
+exec --no-startup-id alacritty -e bash -c "pfetch && echo 'Welcome to Arch Linux! #DCW' && echo 'New today:' && echo 'Dont forget to yay -Syu!' && bash && echo closing now... && sleep 1"
