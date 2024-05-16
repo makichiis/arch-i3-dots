@@ -1,2 +1,3 @@
-2024/05/02-23:07:14.326 2cb Creating DB /home/zaruhev/.config/Code - OSS/Session Storage since it was missing.
-2024/05/02-23:07:14.330 2cb Reusing MANIFEST /home/zaruhev/.config/Code - OSS/Session Storage/MANIFEST-000001
+2024/05/09-15:50:28.331 1341 Reusing MANIFEST /home/zaruhev/.config/Code - OSS/Session Storage/MANIFEST-000001
+2024/05/09-15:50:28.332 1341 Recovering log #3
+2024/05/09-15:50:28.333 1341 Reusing old log /home/zaruhev/.config/Code - OSS/Session Storage/000003.log 
