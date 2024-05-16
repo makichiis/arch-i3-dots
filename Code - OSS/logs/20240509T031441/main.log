@@ -1,6 +1,0 @@
-2024-05-09 03:14:42.889 [info] update#setState disabled
-2024-05-09 03:14:42.898 [info] update#ctor - updates are disabled as there is no update URL
-2024-05-09 05:24:29.231 [warning] No ptyHost heartbeat after 6 seconds
-2024-05-09 05:31:02.714 [warning] No ptyHost heartbeat after 6 seconds
-2024-05-09 14:40:32.744 [warning] No ptyHost heartbeat after 6 seconds
-2024-05-09 15:50:28.300 [info] Extension host with pid 5053 exited with code: 0, signal: unknown.
