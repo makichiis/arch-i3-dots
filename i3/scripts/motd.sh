@@ -2,4 +2,5 @@
 date
 echo "Welcome to Arch Linux! #DCW"
 echo "New today:"
-cat motd
+
+echo "Don't forget to \`yay -Syu\`!"
